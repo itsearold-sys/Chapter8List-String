@@ -7,7 +7,10 @@ for line in first:
 
 if line.startswith('From '):
     word = line.split()
-print(word[1])
+    print(word[1])
+    count = count + 1
+
+print('There were', count "lines in the file with From as the first word")
 
 
 
